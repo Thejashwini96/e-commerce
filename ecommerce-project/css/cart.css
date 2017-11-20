@@ -1,0 +1,25 @@
+.product-grid__product-wrapper {
+    width: 50%;
+}
+
+.productCheckout {
+    width: 50%;
+}
+
+.deliveryAddress {
+    margin-top: 60px;
+    float: left;
+}
+.checkout {
+    margin-top: 188px;
+    float: right;
+}
+
+.checkout button {
+    color: #fff;
+    background: #E91E63;
+}
+
+.confirmation {
+    text-align: center;
+}

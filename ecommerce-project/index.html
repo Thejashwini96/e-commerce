@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Ecommerce product list</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel='stylesheet prefetch' href='css/index.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/ecommerce.js"></script>
+</head>
+
+<body>
+ <header> 
+    <h1 class="logo"><a href="index.html">Fashion Store</a></h1>
+    <form class="form-search">
+        <input type="text" class="input-medium search-query" placeholder="Search">
+        <button type="submit" class="btn">Search</button>
+    </form>
+  </header>
+  <div class="wrapper">
+	<div class="content">
+		<!-- content here -->
+		<div class="product-grid product-grid--flexbox">
+			<div class="product-grid__wrapper">
+				<!-- Product list start here -->
+
+				<!-- Single product -->
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p9.jpg" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Palazzo</span>
+						<span class="product-grid__price">Rs. 1399</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+                                                                <span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Palazzo', 'images/p9.jpg', 'Rs. 1399')">Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end Single product -->
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p8.jpg" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Shirt</span>
+						<span class="product-grid__price">Rs. 4000</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Shirt', 'images/p8.jpg', 'Rs. 4000')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p7.jpg" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Dress</span>
+						<span class="product-grid__price">Rs. 2999</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Dress', 'images/p7.jpg', 'Rs. 2999')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p6.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Formal</span>
+						<span class="product-grid__price">Rs. 1000</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Formal', 'images/p6.png', 'Rs. 1000')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p5.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Casual</span>
+						<span class="product-grid__price">Rs. 399</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Casual', 'images/p5.png', 'Rs. 399')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p4.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Pallazo</span>
+						<span class="product-grid__price">Rs. 400</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Pallazo', 'images/p4.png', 'Rs. 400')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p3.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Track pants</span>
+						<span class="product-grid__price">Rs. 2999</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Track pants', 'images/p3.png', 'Rs. 2999')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p2.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Skirt</span>
+						<span class="product-grid__price">Rs. 2999</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Skirt', 'images/p2.png', 'Rs. 2999')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product-grid__product-wrapper">
+					<div class="product-grid__product">
+						<div class="product-grid__img-wrapper">			
+							<img src="images/p1.png" alt="Img" class="product-grid__img" />
+						</div>
+						<span class="product-grid__title">Tracks</span>
+						<span class="product-grid__price">Rs. 2999</span>
+						<div class="product-grid__extend-wrapper">
+							<div class="product-grid__extend">								
+								<span class="product-grid__btn product-grid__add-to-cart" onclick="addCart('Tracks', 'images/p1.png', 'Rs. 2999')"> Add to cart</span>												
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</div>
+</div>
+  
+  
+</body>
+</html>
+s
